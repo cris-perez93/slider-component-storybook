@@ -1,0 +1,57 @@
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 36px;
+  border: 1px solid #6fce68;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  background-image: url("./../../assets/arrow-left.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+.position-left {
+  position:absolute;
+  left: 0;
+  background-image: url("./../../assets/arrow-left.png");
+}
+.position-right {
+    position:absolute;
+    right: 0;
+    background-image: url("./../../assets/arrow-right.png");
+  }
+
+
+.size-sm {
+  width: 24px;
+  height: 26px;
+}
+
+.size-md {
+  width: 34px;
+  height: 36px;
+}
+
+.size-lg{
+  width: 44px;
+  height: 46px;
+}
+
+.hover-green:hover{
+  background-color: #6fce68;
+  box-shadow: 0px 0px 0px 1px rgba(28, 168, 63, 0.5);
+  transform: translateY(-5px);
+  
+}
+
+.hover-tenue:hover{
+  background-color: #3b473b;
+  box-shadow: 0px 0px 0px 1px rgba(28, 168, 63, 0.5);
+  transform: translateY(-5px);
+}

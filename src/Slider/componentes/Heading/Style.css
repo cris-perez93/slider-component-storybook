@@ -1,0 +1,36 @@
+
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.color-text-primary{
+  color: rgb(105, 177, 77);
+}
+
+.color-text-secondary{
+    color: whitesmoke;
+}
+
+.size-md{
+    font-size: 18px ;
+    
+}
+
+.size-lg{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.size-sm{
+    font-size: 14px;
+}
+
+.size-big{
+    font-size: 80px;
+    font-weight: bold;
+}

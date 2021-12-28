@@ -1,0 +1,30 @@
+
+.button{
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    box-shadow:  -1px 17px 8px -10px   rgba(105, 177, 77, 0.363) ;
+    transition: .2s;
+}
+
+.button:hover{
+    transform: translateY(-5px);
+}
+
+.color-btn-primary{
+    background-color: #69b14d;
+}
+
+.color-btn-secondary{
+    background-color: transparent;
+    border: solid 2px #69b14d ;
+    color:#69b14d ;
+}

@@ -1,0 +1,19 @@
+.container-error{
+    
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text-error{
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    
+}

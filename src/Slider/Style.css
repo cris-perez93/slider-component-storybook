@@ -1,0 +1,87 @@
+.slider{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 676px;
+    height: 258.58px;
+    
+}
+
+
+.slider-content{
+position: relative;
+display: flex;
+justify-content:space-around;
+align-items: flex-start;
+flex-direction: column;
+width: 508px;
+height: 258px;
+box-sizing: border-box;
+box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+font-family: 'Montserrat', sans-serif;
+padding: 26px;
+z-index: 5;
+overflow: hidden;
+background: #252835;
+color: #CDCDCD;
+border: 2px solid #2E353F;
+animation: showCard .5s linear;
+
+
+}
+
+
+.typo-clear{
+    background: #fcfcfc;
+    color: #000000 ;
+    border: 2px solid #569B51;
+    
+}
+
+.typo-dark{
+    background: #252835;
+    color: #CDCDCD;
+    border: 2px solid #2E353F;
+}
+
+
+.loading{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    width: 500px;
+}
+
+@keyframes showCard {
+	from {
+     opacity: 0;
+    
+}
+}
+
+
+
+
+.slider-content-header{
+    display: flex;
+    align-items: center;
+   
+
+    
+}
+
+
+.back-logo{
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.5;
+    
+    
+}
