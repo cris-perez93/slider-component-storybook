@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# NUWE-Slider
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cristian Pérez(Frontend). Slider-Component
 
-## Available Scripts
+> **Descripción del Proyecto** 
 
-In the project directory, you can run:
+En esta ocasión se nos pide crear un componente Slider para mostrar información de un usuario , comentarios, feedback..
 
-### `npm start`
+**Objetivos** 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Task 1 → Se puede deslizar de izquierda a derecha y ver varios comentarios.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Tecnologias
+👌  React -Create-React-App<br>
+🧾  PropTypes<br>
+📕  Storybook
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API/Component
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Consumo de API () 📃 (https://api.quotable.io/random)-(https://randomuser.me/api/).
+He utilizado estas dos APIS, para simular comentarios y perfiles para la creación del Slider.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Arquitectura
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+He decidido trabajar con React-Hooks para tener mejor fluidez a la hora de trabajar con los estados.<br>
+He implementado un Custom-Hook para las llamadas a la api utilizando Promise.All para llamar de manera simultanea al recurso.<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Estructura de carpetas
+![](/src/Slider/assets/Slider-structure.png)
+He seguido una estructura atomizada parecida a la de la imagen, en la cual podemos encontrar en la carpeta /src 2 componentes principales, 'Error' (pagina de error) 'Slider' para mostrar el Slider, los cuales pueden contener mas componentes atomizados como botones, iconos... u otros componentes. <br>
+Utilizando props pasamos informacion a traves de estos  y los  documentamos con PropTypes.<br>
+Separamos la logica de la vista. (Smart Components)
+Tambien tenemos la carpeta de stories , la cual contiene las historias de nuestros componentes , y las variaciones de los mismos.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install # Instalación de todas las dependencias del proyecto<br>
+npm start  #  Ejecuta el proyecto en local.<br>
+npm run storybook # Ejecuta el entorno de desarrollo para storybook. Donde podemos ver todos nuestros componentes documentados.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
